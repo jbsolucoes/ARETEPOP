@@ -1,0 +1,223 @@
+ARETE POP SDK - 20150618
+
+[iPhone]
+AretePopLib_IL1001_28
+- Fixed interrupt issue by Siri
+
+[Anroid]
+AretePopLib_AL1001_28
+- Modified diagnostic features for KitKat
+
+
+ARETE POP SDK - 20150406
+
+[Firmware]
+A100_FW1001_007CCAB7_Firmware
+- Added glitch signal remover on audio IO.
+
+
+ARETE POP SDK - 20150325
+
+[Firmware]
+A100_FW1001_007C8876_Firmware
+- Fixed bugs regarding RSSI
+
+
+ARETE POP SDK - 20150312
+
+[iPhone]
+A100_IL1001-27_iPhoneLibrary.a
+- Fixed bugs when reading tags contains XPC.
+- Modified Read/Write features
+
+[Anroid]
+A100_AL1001-27_AndroidLibrary.jar
+- Fixed bugs when reading tags contains XPC.
+- Modified Read/Write features
+
+
+
+ARETE POP SDK - 20150127
+
+[Firmware]
+A100_FW1001_007B46FC_Firmware
+- Fixed bugs in RCP NACK code
+
+
+ARETE POP SDK - 20141128
+
+[iPhone]
+A100_IL1001-26_iPhoneLibrary.a
+- Added startReadTagsWithTid
+
+[Anroid]
+A100_AL1001-26_AndroidLibrary.jar
+- Added startReadTagsWithTid
+
+
+
+ARETE POP SDK - 20141010
+
+[iPhone]
+A100_IL1001-25_iPhoneLibrary.a
+- Fixed bugs in EpcConverter
+
+
+[Anroid]
+A100_AL1001-25_AndroidLibrary.jar
+- Fixed bugs in EpcConverter
+
+
+[Firmware]
+A100_FW1001_007899FA_Firmware
+- Added new bootloader
+- Updated error code
+
+
+ARETE POP SDK - 20140818
+
+[iPhone]
+A100_IL1001-24_iPhoneLibrary.a
+- Added EpcConverter
+- Added session control
+
+[Anroid]
+A100_AL1001-24_AndroidLibrary.jar
+- Added EpcConverter
+- Added session control
+
+
+
+ARETE POP SDK - 20140718
+
+[iPhone]
+A100_IL1001-23_iPhoneLibrary.a
+- Use RcpDelegate2
+- Remove unused methods
+- Modified library for battery gauging
+- Modified library for speaker beep
+
+[Anroid]
+A100_AL1001-23_AndroidLibrary.jar
+- Added RcpApi2 (Singleton API)
+- Modified library for battery gauging
+- Modified library for speaker beep
+- Fixed bug when reading user memory
+
+[Firmware]
+A100_FW1001_0076E96E_Firmware
+- Added customized command for EM Micro Tags
+
+ARETE POP SDK - 20140519
+
+[Anroid]
+A100_AL1001-22_AndroidLibrary.jar
+- Added RcpApi2 (Singleton API)
+
+[iPhone]
+A100_IL1001-22_iPhoneLibrary.a
+- Added RcpApi2 (Singleton API)
+
+[Firmware]
+A100_FW1001_0075547C_Firmware
+- Fixed startReadTags mtnu when reading multiple tags
+
+
+
+ARETE POP SDK - 20140313
+
+[Anroid]
+A100_AL1001-21_AndroidLibrary.jar
+- Legacy reader support
+
+[iPhone]
+A100_IL1001-21_iPhoneLibrary.a
+- Updated for iOS 7
+
+[Firmware]
+A100_FW1001-007411CE_Firmware.hex
+- Added feature for forward compatibility
+
+
+
+ARETE POP SDK - 20140129
+
+[Anroid]
+A100_AL1001-20_AndroidLibrary.jar
+- New algorithm applied
+- Added phones: G'zOne, FJL21
+- Added tag RSSI
+
+[iPhone]
+A100_IL1001-20_iPhoneLibrary.a
+- Fixed a crash when incoming call
+- Added tag RSSI
+
+[Firmware]
+A100_FW1001-0072A44C_Firmware.hex
+- Tag RSSI added
+
+
+
+ARETE POP SDK - 20131203
+
+[Anroid]
+aretepoplib_20131129
+- New algorithm applied
+- Modified to reduce the CPU occupancy rate
+
+[Firmware]
+A100_20131202134956_0071CF1D
+- Fixed write memory
+- Fixed audio communication for HTC phones
+
+
+
+ARETE POP SDK - 20131021
+
+[Anroid]
+aretepoplib_20131017
+- Fixed bugs in startReadTags
+- Fixed bugs in reading rcp packet
+- Added phones
+
+[Firmware]
+A100_20131018183910_0070CD7F
+- Modified Japanese Channel Table
+- Modified RSSI Table
+- Modified LBT Function
+- Added LBT Scan Function
+
+[User Guide]
+- Fixed typos
+- Added tag access descriptions
+
+
+
+ARETE POP SDK - 20130809
+
+[Anroid]
+aretepoplib_20130806
+- Added phones
+
+[SDK Manual]
+- Fixed typos
+
+[User Guide]
+- Fixed typos
+
+
+
+ARETE POP SDK - 20130723
+
+[Anroid]
+aretepoplib_20130713
+- Initial Release
+
+[iPhone]
+libAreteAudio_20130702
+- Initial Release
+
+[Firmware]
+A100_20130710212102_006E9601
+- Initial Release
